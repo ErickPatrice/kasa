@@ -1,0 +1,48 @@
+/* Header */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    width: 145px;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+  
+.nav-links :nth-child(1) {
+    margin-right: 1em;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+  
+  
+@media (max-width: 820px) {
+    .navbar {
+      padding: 10px 35px;
+    }
+    .nav-links {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .logo img {
+      width: 100px;
+      
+  }
+}

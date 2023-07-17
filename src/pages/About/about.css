@@ -1,0 +1,31 @@
+/* page about */
+
+.about {
+    padding: 0 50px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contentCollapse {
+    display: flex;
+    width: 86%;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 73px;
+}
+
+@media (max-width: 820px) {
+    .about {
+        padding: 10px 35px;
+    }
+
+    .contentCollapse {
+        padding: 0 0;
+        width: auto;
+    }
+
+    .details {
+        margin: -18px;
+    }
+}
