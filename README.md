@@ -1,7 +1,7 @@
-## Clonez le repo puis faites:
-## npm install && npm start
-## le site Kasa devrait être visible  à l'adresse
-## http://localhost:3000   
+### Clonez le repo puis faites:
+### npm install && npm start
+### le site Kasa devrait être visible  à l'adresse
+### http://localhost:3000   
 
 
 
