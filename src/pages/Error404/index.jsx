@@ -9,8 +9,9 @@ function Error404 () {
     return (
         <div className="p404">
             <div className="page404">
-            <h1>404</h1>
-            <p>Oups! La page que vous demandez n'existe pas.</p>
+            <h1>Oops!</h1>
+             <img src={hommeperdu} alt=" un homme perdu" srcSet="" />
+             <p>Désolé, la page demandée n'existe pas.</p>
             </div>
             <Link to ="/" className="lin">
                 Retournez sur la page d'accueil

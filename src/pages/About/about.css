@@ -1,7 +1,7 @@
 /* page about */
 
 .about {
-    padding: 0 50px;
+    padding: 0 0px;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -9,15 +9,50 @@
 
 .contentCollapse {
     display: flex;
-    width: 86%;
+    max-width: 1023px;
     margin: auto;
     flex-direction: column;
     margin-bottom: 73px;
 }
 
+
+@media (max-width: 1440px) {
+    .about {
+        padding: 0px 0px;
+    }
+
+    .contentCollapse {
+        padding: 0 0;
+        width: auto;
+    }
+
+    .details {
+        margin: -18px;
+    }
+}
+
+
+
+
+
 @media (max-width: 992px) {
     .about {
-        padding: 10px 35px;
+        padding: 0px 0px;
+    }
+
+    .contentCollapse {
+        padding: 0 0;
+        width: auto;
+    }
+
+    .details {
+        margin: -18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 0px 0px;
     }
 
     .contentCollapse {
