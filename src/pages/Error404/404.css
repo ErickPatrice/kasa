@@ -1,5 +1,5 @@
 /* Erreur 404 */
-
+/* 
 .p404 {
     display: flex;
     justify-content: space-around;
@@ -10,14 +10,8 @@
     height: 95vh;
 }
 
-
-.page404 h1 {
-    font-weight: 200;
-    font-size: 28px;
-}
-
 .page404 p {
-    font-size: large;
+    text-align: center;
 }
 
 .lin {
@@ -27,13 +21,160 @@
     font-size: large;
     margin-bottom: 35px;
 }
+ 
+.container404 {
+    position: relative;
+    width: 597px;
+    height: 253px;
+}
+.container404 h1{
+position: absolute;
+color: #FF6060;
+font-family: Montserrat;
+font-size: 288px;
+font-weight: 700;
+line-height: 411px;
+letter-spacing: 0em;
+text-align: center;
+top: -270px;
+left: 60px;
+}
 
-@media (max-width: 820px) {
-    .page404 h1 {
-        font-size: 95px;
+@media (max-width: 768px) {
+
+    .container404 {
+        position: relative;
+        width: 597px;
+        height: 253px;
     }
-    .page404 p {
-        font-size: 1.5rem;
-        font-weight: 500;
+
+    .container404 h1{
+        position: absolute;
+        color: #FF6060;
+        font-family: Montserrat;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 137px;
+        letter-spacing: 0em;
+        text-align: center;
+        top: 100px;
+        
+        }
+        p {
+            font-family: Montserrat;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 250px;
+
+        }
+
+}
+    
+ */
+ 
+ /* Common styles for all screen sizes */
+.p404 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FF6060;
+    height: 95vh;
+}
+
+.page404 p {
+    text-align: center;
+}
+
+.lin {
+    display: flex;
+    color: #FF6060;
+    margin-top: 20px; /* Reduce the top margin for .lin */
+    font-size: large;
+    margin-bottom: 15px; /* Reduce the bottom margin for .lin */
+}
+
+.container404 {
+    position: relative;
+    width: 100%;
+    max-width: 597px;
+    height: auto;
+}
+
+.container404 h1 {
+    position: relative;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0px;
+}
+
+/* Styles for screen sizes up to 767px (including 767px) */
+@media (max-width: 767px) {
+    .container404 h1 {
+        font-size: 96px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        margin-bottom: 10px; /* Reduce the bottom margin for p */
+    }
+}
+
+/* Styles for screen sizes from 768px up to 991px (including 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container404 h1 {
+        font-size: 144px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 10px; /* Reduce the bottom margin for p */
+    }
+}
+
+/* Styles for screen sizes from 992px up to 1199px (including 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container404 h1 {
+        font-size: 192px;
+    }
+
+    p {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px; /* Reduce the bottom margin for p */
+    }
+}
+
+/* Styles for screen sizes of 1200px and above */
+@media (min-width: 1200px) {
+    .container404 h1 {
+        font-size: 288px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 10px; /* Reduce the bottom margin for p */
+    }
+}
+
+/* Position adjustments for all screen sizes */
+@media (max-width: 1200px) {
+    .container404 {
+        top: -50px;
+    }
+
+    .container404 h1 {
+        top: 0;
     }
 }
